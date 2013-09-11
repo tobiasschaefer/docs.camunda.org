@@ -21,6 +21,9 @@
               <li ng-class="activeClass('/guides/migration-guide')">
                 <a href="<%= @docUrl("guides/migration-guide/") %>">Migration Guide</a>
               </li>
+              <li ng-class="activeClass('/guides/how-tos')">
+                <a href="<%= @docUrl("how-tos/")%>">How-tos</a>
+              </li>              
             </ul>
           </li>
           <li class="dropdown" ng-class="activeClass('/api-references')">
@@ -58,6 +61,9 @@
               </li>
             </ul>
           </li>
+          <li class="dropdown" ng-class="activeClass('/enterprise')">
+            <a href="<%= @docUrl("enterprise/") %>">Enterprise</a>
+          </li>          
         </ul>
       </div>
       <a class="pull-right back-to-main ir" href="http://camunda.org">

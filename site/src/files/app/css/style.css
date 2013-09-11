@@ -72,7 +72,7 @@ div.popover {
   color: #111;
 }
 
-.nocode {
+/*.nocode {
   display: inline-block;
   background-color: #e3e9f2;
   color: #223f7a;
@@ -81,7 +81,7 @@ div.popover {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-}
+}*/
 
 /** loading icon integration */
 .icon-loading {
@@ -408,6 +408,13 @@ footer {
 
 /* sitebar navigation end **/
 
+.container-small {
+  display: inline-block;
+  width:80px;
+  height:80px;
+  background-size:contain;
+}
+
 .container-tiny {
   display: inline-block;
   width: 50px;
@@ -434,6 +441,53 @@ footer {
   background: url("../../assets/img/glassfish-tile.png");
   background-size: contain;
 }
+
+.was8 {
+  background: url("../../assets/img/was-tile.png");
+  background-size: contain;
+}
+
+/* ROOT/download/ */
+/* IE8 IMAGE RESIZE HACK */
+.as7-ie8 {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/download/as7-tile.png',
+    sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='../assets/img/download/as7-tile.png',
+sizingMethod='scale');
+  }
+
+.glassfish-ie8 {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/download/glassfish-tile.png',
+    sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='../assets/img/download/glassfish-tile.png',
+sizingMethod='scale');
+  }
+
+.tomcat-ie8 {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/download/tomcat-tile.png',
+    sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='../assets/img/download/tomcat-tile.png',
+sizingMethod='scale');
+  }
+
+.was8-ie8 {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/download/was-tile.png',
+    sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='../assets/img/download/was-tile.png',
+sizingMethod='scale');
+  }  
 
 /** bootstrap overrides for improving readability */
 
@@ -480,3 +534,4 @@ pre.console {
   background-color: #333;
   color:white;
 }
+

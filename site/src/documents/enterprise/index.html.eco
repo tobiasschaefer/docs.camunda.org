@@ -1,0 +1,23 @@
+---
+
+title: 'Enterprise Download - camunda BPM platform'
+layout: 'default'
+
+---
+
+<div id="navSide" class="span3 bs-docs-sidebar">
+  <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
+    <li><a href="#!/#download"><i class="icon-chevron-right"></i>Download</a></li>
+    <li><a href="#!/#maven-coordinates"><i class="icon-chevron-right"></i>Maven Coordinates</a></li>
+    <li><a href="#!/#jira-support"><i class="icon-chevron-right"></i>JIRA and Support</a></li   
+  </ul>
+</div>
+
+<div class="span9 docs docs-guide">
+
+<%- @include('./enterprise-introduction.html.md') %>
+<%- @include('./download/download.html.md.eco') %>
+<%- @include('./maven-coordinates/maven-coordinates.html.md.eco') %>
+<%- @include('./jira-support/jira-support.html.md.eco') %>
+
+</div>

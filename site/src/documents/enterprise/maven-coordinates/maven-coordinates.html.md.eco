@@ -1,0 +1,47 @@
+# Apache Maven Coordinates<a id="maven-coordinates"></a>
+
+Here are the coordinates for including camunda BPM in Apache Maven Projects.
+
+### The core process engine
+    
+    <dependency>
+      <groupId>org.camunda.bpm</groupId>
+      <artifactId>camunda-engine</artifactId>
+      <version>7.0.0-Final</version>
+    </dependency>
+
+### Spring Module
+
+    <dependency>
+      <groupId>org.camunda.bpm</groupId>
+      <artifactId>camunda-engine-spring</artifactId>
+      <version>7.0.0-Final</version>
+    </dependency>
+
+### CDI Module
+
+    <dependency>
+      <groupId>org.camunda.bpm</groupId>
+      <artifactId>camunda-engine-cdi</artifactId>
+      <version>7.0.0-Final</version>
+    </dependency>
+
+### EJB Client
+
+    <dependency>
+      <groupId>org.camunda.bpm.javaee</groupId>
+      <artifactId>camunda-ejb-client</artifactId>
+      <version>7.0.0-Final</version>
+    </dependency>
+
+### Repository
+
+Do not forget to add the [camunda enterprise repository](https://app.camunda.com/nexus/content/repositories/camunda-bpm-ee) to your pom (or local nexus).
+
+    <repositories>
+      <repository>
+        <id>camunda-bpm-nexus</id>
+        <name>camunda-bpm-nexus</name>
+        <url>https://app.camunda.com/nexus/content/repositories/camunda-bpm-ee</url>
+      </repository>
+    </repositories>
