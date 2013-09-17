@@ -44,6 +44,26 @@ layout: 'default'
     </thead>
     <tbody>
     <tr>
+      <td>7.0.0-Final (<a target="_blank" href="http://camundabpm.blogspot.com/2013/08/camunda-BPM-7.0.0-Final-released.html">Release Notes</a>)</td>
+      <td>31.08.2013</td>
+      <td>
+        <a class="btn btn-small download-bpm" href="http://www.camunda.org/enterprise-release/camunda-bpm/tomcat/7.0/7.0.0-Final/camunda-bpm-tomcat-7.0.0-Final-ee.zip">zip</a>&nbsp;
+        <a class="btn btn-small download-bpm" href="http://www.camunda.org/enterprise-release/camunda-bpm/tomcat/7.0/7.0.0-Final/camunda-bpm-tomcat-7.0.0-Final-ee.tar.gz">tar.gz</a>
+      </td>
+      <td>
+        <a class="btn btn-small download-bpm" href="http://www.camunda.org/enterprise-release/camunda-bpm/jboss/7.0/7.0.0-Final/camunda-bpm-jboss-7.0.0-Final-ee.zip">zip</a>&nbsp;
+        <a class="btn btn-small download-bpm" href="http://www.camunda.org/enterprise-release/camunda-bpm/jboss/7.0/7.0.0-Final/camunda-bpm-jboss-7.0.0-Final-ee.tar.gz">tar.gz</a>
+      </td>
+      <td>
+        <a class="btn btn-small download-bpm" href="http://www.camunda.org/enterprise-release/camunda-bpm/glassfish/7.0/7.0.0-Final/camunda-bpm-glassfish-7.0.0-Final-ee.zip">zip</a>&nbsp;
+        <a class="btn btn-small download-bpm" href="http://www.camunda.org/enterprise-release/camunda-bpm/glassfish/7.0/7.0.0-Final/camunda-bpm-glassfish-7.0.0-Final-ee.tar.gz">tar.gz</a><br>      
+      </td>
+      <td>
+        <a class="btn btn-small download-bpm" href="http://www.camunda.org/enterprise-release/camunda-bpm/ibm-was/7.0/7.0.0-Final/camunda-ee-ibm-was-7.0.0-Final-ee.zip">zip</a>&nbsp;
+        <a class="btn btn-small download-bpm" href="http://www.camunda.org/enterprise-release/camunda-bpm/ibm-was/7.0/7.0.0-Final/camunda-ee-ibm-was-7.0.0-Final-ee.tar.gz">tar.gz</a><br>      
+      </td> 
+    </tr>      
+    <tr>
       <td>7.0.0-alpha9 (<a href="http://camundabpm.blogspot.de/2013/08/camunda-bpm-700-alpha9-released.html" target="_blank">Release Notes</a>)</td>
       <td>09.08.2013</td>
       <td>

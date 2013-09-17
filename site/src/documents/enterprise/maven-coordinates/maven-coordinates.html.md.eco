@@ -1,13 +1,13 @@
 # Apache Maven Coordinates<a id="maven-coordinates"></a>
 
-Here are the coordinates for including camunda BPM in Apache Maven Projects.
+Here are the coordinates for including the camunda BPM enterprise edition in Apache Maven Projects.
 
 ### The core process engine
     
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine</artifactId>
-      <version>7.0.0-Final</version>
+      <version>7.0.1-ee</version>
     </dependency>
 
 ### Spring Module
@@ -15,7 +15,7 @@ Here are the coordinates for including camunda BPM in Apache Maven Projects.
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine-spring</artifactId>
-      <version>7.0.0-Final</version>
+      <version>7.0.1-ee</version>
     </dependency>
 
 ### CDI Module
@@ -23,7 +23,7 @@ Here are the coordinates for including camunda BPM in Apache Maven Projects.
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine-cdi</artifactId>
-      <version>7.0.0-Final</version>
+      <version>7.0.1-ee</version>
     </dependency>
 
 ### EJB Client
@@ -31,7 +31,7 @@ Here are the coordinates for including camunda BPM in Apache Maven Projects.
     <dependency>
       <groupId>org.camunda.bpm.javaee</groupId>
       <artifactId>camunda-ejb-client</artifactId>
-      <version>7.0.0-Final</version>
+      <version>7.0.1-ee</version>
     </dependency>
 
 ### Repository
